@@ -11,10 +11,7 @@ const products = {
         name: "Cepillo eléctrico",
         price: 22488
     },
-    cabezales: {
-        name: "Cabezales",
-        price: 10448
-    },
+   
     cable: {
         name: "Cable USB",
         price: 17971
