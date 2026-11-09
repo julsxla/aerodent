@@ -1,0 +1,385 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AeroDent System S.A.S. - Conoce DentAll, tu kit dental portátil.">
+    <meta name="theme-color" content="#064B49">
+
+    <title>AeroDent System S.A.S. | DentAll</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="header">
+        <a href="#inicio" class="logo">
+            <img src="img/logo.png" alt="Logo AeroDent System">
+            <span>AeroDent System</span>
+        </a>
+
+        <nav class="navbar">
+            <a href="#inicio">Inicio</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#productos">Productos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <button class="cart-button" id="go-to-cart">
+            🛒 Carrito
+            <span id="cart-count">0</span>
+        </button>
+    </header>
+
+    <main>
+
+        <!-- INICIO -->
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <p class="subtitle">INNOVACIÓN · HIGIENE · BIENESTAR</p>
+
+                <h1>Tu sonrisa,<br>siempre contigo.</h1>
+
+                <p>
+                    Descubre DentAll, el kit dental portátil
+                    diseñado para cuidar tu sonrisa
+                    en cualquier lugar.
+                </p>
+
+                <a href="#productos" class="main-button">
+                    CONOCER PRODUCTOS
+                </a>
+            </div>
+
+            <div class="hero-image">
+                <img src="img/dentall.png" alt="Kit dental DentAll">
+            </div>
+        </section>
+
+        <!-- NOSOTROS -->
+        <section id="nosotros" class="about">
+            <div class="section-title">
+                <span>NUESTRO COMPROMISO CON TU SONRISA</span>
+                <h2>Conoce AeroDent System</h2>
+            </div>
+
+            <div class="about-text">
+                <p>
+                    Somos AeroDent System S.A.S., una empresa innovadora
+                    que nace de nuestro proyecto del SENA. Creamos DentAll,
+                    un kit dental portátil diseñado para facilitar el cuidado
+                    bucal en cualquier lugar, ofreciendo practicidad,
+                    comodidad y funcionalidad.
+                </p>
+            </div>
+
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>Nuestra misión</h3>
+                    <p>
+                        Ofrecer soluciones prácticas e innovadoras para
+                        la higiene oral, proporcionando comodidad y
+                        funcionalidad en la vida diaria.
+                    </p>
+                </div>
+
+                <div class="info-card">
+                    <h3>Nuestra visión</h3>
+                    <p>
+                        Ser reconocidos en Colombia por nuestra innovación
+                        y calidad en productos de higiene oral, llegando
+                        a más personas con soluciones portátiles y modernas.
+                    </p>
+                </div>
+
+                <div class="info-card">
+                    <h3>Nuestros valores</h3>
+                    <p>
+                        Innovación, responsabilidad, compromiso y honestidad
+                        son los principios que orientan nuestro trabajo
+                        y crecimiento empresarial.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUCTOS -->
+        <section id="productos" class="products">
+            <div class="section-title">
+                <span>CONOCE NUESTRA COLECCIÓN</span>
+                <h2>Productos DentAll</h2>
+                <p>Todo lo que necesitas para cuidar tu sonrisa.</p>
+            </div>
+
+            <div class="product-grid">
+
+                <article class="product-card featured">
+                    <img src="img/dentall.png" alt="Kit dental DentAll">
+                    <div class="product-info">
+                        <span class="product-tag">KIT COMPLETO</span>
+                        <h3>DentAll - Kit dental portátil</h3>
+                        <p>Tu cuidado bucal completo, estés donde estés.</p>
+                        <strong>$177.955 COP</strong>
+                        <button class="btn add-to-cart" data-id="dentall">
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="img/cepillo-cabezales.jpg" alt="Cepillo eléctrico">
+                    <div class="product-info">
+                        <h3>Cepillo eléctrico</h3>
+                        <strong>$22.488 COP</strong>
+                        <button class="btn add-to-cart" data-id="cepillo">Agregar al carrito</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="img/cepillo-cabezales.jpg" alt="Cabezales para cepillo">
+                    <div class="product-info">
+                        <h3>Cabezales</h3>
+                        <strong>$10.448 COP</strong>
+                        <button class="btn add-to-cart" data-id="cabezales">Agregar al carrito</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="img/cable.jpg" alt="Cable USB">
+                    <div class="product-info">
+                        <h3>Cable USB</h3>
+                        <strong>$17.971 COP</strong>
+                        <button class="btn add-to-cart" data-id="cable">Agregar al carrito</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="img/toalla.jpg" alt="Toalla de microfibra">
+                    <div class="product-info">
+                        <h3>Toalla de microfibra</h3>
+                        <strong>$4.909 COP</strong>
+                        <button class="btn add-to-cart" data-id="toalla">Agregar al carrito</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="img/enjuague.jpg" alt="Enjuague bucal">
+                    <div class="product-info">
+                        <h3>Enjuague bucal</h3>
+                        <strong>$12.649 COP</strong>
+                        <button class="btn add-to-cart" data-id="enjuague">Agregar al carrito</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="img/crema.jpg" alt="Crema dental">
+                    <div class="product-info">
+                        <h3>Crema dental</h3>
+                        <strong>$13.900 COP</strong>
+                        <button class="btn add-to-cart" data-id="crema">Agregar al carrito</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="img/hilo.jpg" alt="Hilo dental">
+                    <div class="product-info">
+                        <h3>Hilo dental</h3>
+                        <strong>$10.585 COP</strong>
+                        <button class="btn add-to-cart" data-id="hilo">Agregar al carrito</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="img/raspador.jpg" alt="Raspador de lengua">
+                    <div class="product-info">
+                        <h3>Raspador de lengua</h3>
+                        <strong>$7.952 COP</strong>
+                        <button class="btn add-to-cart" data-id="raspador">Agregar al carrito</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="img/tiras.jpg" alt="Tiras de blanqueamiento">
+                    <div class="product-info">
+                        <h3>Tiras de blanqueamiento</h3>
+                        <strong>$5.285 COP</strong>
+                        <button class="btn add-to-cart" data-id="tiras">Agregar al carrito</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="img/espejo.jpg" alt="Espejo dental">
+                    <div class="product-info">
+                        <h3>Espejo</h3>
+                        <strong>$10.785 COP</strong>
+                        <button class="btn add-to-cart" data-id="espejo">Agregar al carrito</button>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CARRITO -->
+        <section id="carrito" class="cart-section">
+            <div class="section-title">
+                <span>TU COMPRA</span>
+                <h2>Carrito de compras</h2>
+            </div>
+
+            <div id="cart-items">
+                <p>Tu carrito está vacío.</p>
+            </div>
+
+            <div class="cart-total">
+                <h3>Total: <span id="cart-total">$0 COP</span></h3>
+                <button class="btn" id="checkout-button">
+                    Continuar con la compra
+                </button>
+            </div>
+        </section>
+
+        <!-- FORMULARIO DE COMPRA -->
+        <section id="checkout" class="checkout-section" hidden>
+            <div class="section-title">
+                <span>FINALIZA TU PEDIDO</span>
+                <h2>Datos de compra</h2>
+                <p>Completa tus datos para continuar.</p>
+            </div>
+
+            <form id="checkout-form">
+                <label for="customer-name">Nombre completo</label>
+                <input type="text" id="customer-name" required placeholder="Tu nombre">
+
+                <label for="customer-phone">Teléfono</label>
+                <input type="tel" id="customer-phone" required placeholder="Tu número de celular">
+
+                <label for="customer-email">Correo electrónico</label>
+                <input type="email" id="customer-email" required placeholder="Tu correo">
+
+                <label for="customer-address">Dirección de entrega</label>
+                <input type="text" id="customer-address" required placeholder="Dirección completa">
+
+                <label for="customer-city">Ciudad</label>
+                <input type="text" id="customer-city" required placeholder="Tu ciudad">
+
+                <label for="payment-method">Método de pago</label>
+                <select id="payment-method" required>
+                    <option value="">Selecciona un método</option>
+                    <option value="Contraentrega">Pago contraentrega</option>
+                    <option value="Transferencia">Transferencia bancaria</option>
+                </select>
+
+                <button type="submit" class="btn">Enviar pedido por WhatsApp</button>
+            </form>
+
+            <div id="order-confirmation" hidden></div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contacto" class="contact-section">
+            <div class="section-title">
+                <span>ESTAMOS PARA AYUDARTE</span>
+                <h2>Contáctanos</h2>
+                <p>Déjanos tus datos y te asesoraremos sobre nuestros productos.</p>
+            </div>
+
+            <form id="contact-form">
+                <label for="first-name">Nombre</label>
+                <input type="text" id="first-name" required placeholder="Tu nombre">
+
+                <label for="last-name">Apellido</label>
+                <input type="text" id="last-name" required placeholder="Tu apellido">
+
+                <label for="interest">Producto de interés</label>
+                <select id="interest" required>
+                    <option value="">Selecciona un producto</option>
+                    <option>DentAll - Kit dental portátil</option>
+                    <option>Cepillo eléctrico</option>
+                    <option>Cabezales</option>
+                    <option>Cable USB</option>
+                    <option>Toalla de microfibra</option>
+                    <option>Enjuague bucal</option>
+                    <option>Crema dental</option>
+                    <option>Hilo dental</option>
+                    <option>Raspador de lengua</option>
+                    <option>Tiras de blanqueamiento</option>
+                    <option>Espejo</option>
+                </select>
+
+                <label for="contact-phone">Número de celular</label>
+                <input
+                    type="tel"
+                    id="contact-phone"
+                    required
+                    placeholder="Tu número de celular"
+                    pattern="[0-9+ ]{7,15}"
+                >
+
+                <button type="submit" class="btn">
+                    Contactar por WhatsApp
+                </button>
+            </form>
+
+            <div class="contact-extra">
+                <h3>Conecta con nosotros</h3>
+                <p>Estamos aquí para ayudarte.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+        <div class="footer-content">
+
+            <div class="footer-brand">
+                <h2>AeroDent System S.A.S.</h2>
+                <p>Tu sonrisa, siempre contigo.</p>
+                <p>Innovación y cuidado bucal en cualquier lugar.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Explora</h3>
+                <a href="#inicio">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#productos">Productos</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contáctanos</h3>
+
+                <div class="social-icons">
+                    <a href="https://wa.me/573229425275" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                        <img src="img/whatsapp.png" alt="WhatsApp">
+                    </a>
+
+                    <a href="https://www.instagram.com/aerodent_system_sas/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <img src="img/instagram.png" alt="Instagram">
+                    </a>
+
+                    <a href="mailto:aerodentsystemsas@gmail.com" aria-label="Correo electrónico">
+                        <img src="img/correo.png" alt="Correo electrónico">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 AeroDent System S.A.S. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- VOLVER AL INICIO -->
+    <a href="#inicio" class="back-to-top" title="Volver al inicio" aria-label="Volver al inicio">
+        ↑
+    </a>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
